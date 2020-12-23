@@ -1,0 +1,245 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/batt.jpg") ;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size:20px;
+    font-family: sans-serif;
+    overflow-y: scroll;
+}
+.main{
+    display: flex;
+    align-items: center;
+    margin-top:30px;
+  }
+  .port{
+      width:50%;
+      margin-left:70px;
+      font-weight: bold;
+      color:white;
+   }
+  .port span{
+      color:rgb(236, 47, 47);
+  }
+  
+  
+  .nav{
+      width:50%;
+      margin-left:280px;
+      background-color: brown;
+     
+  }
+  .nav li {
+      list-style-type: none;
+      display: inline;
+      margin-left:18px;
+    
+  }
+  .nav li a {
+      padding:5px 0;
+      text-decoration:none;
+      color:white;
+      font-weight:100px;
+      text-transform: uppercase;
+    
+  }
+  .nav li a:hover{
+      border-bottom:2px solid whitesmoke;
+  }
+ 
+  
+  /*.search{
+      position: relative;
+      margin-right:35px;
+      }
+  #search{
+      height:30px;
+      width:180px;
+      border-radius:15px;
+      margin-right:15px;
+      border:1px solid lightsteelblue;
+      background-color:transparent;
+      font-family: cursive;
+      padding-left:10px;
+      font-size: 15px;
+      color:lightsteelblue;
+     }
+    /* .search  #search .icon i .fas fa-search{
+          color:black;
+     }
+  .icon{
+      position:absolute;
+      right:23px;
+      top:1px;
+      font-size: 17px;
+      color: lightslategrey;
+    }*/
+
+  /*for the content*/
+  .content{
+      padding-left:100px;
+      color:rgb(243, 240, 240);
+      margin-top:120px;
+  }
+  .content p{
+      font-weight:bolder;
+      word-spacing:6px;
+  }
+  .content p1 {
+     font-weight:bold; 
+     word-spacing:6px; 
+     line-height:30px;
+     font-family:font-family: 'Rajdhani', sans-serif;;
+   
+  }
+  /*for buttons*/
+  .button{
+     padding-left:100px;
+    }
+    .button button {
+        height:50px;
+        width:180px;
+        font-size:30px;
+        border:1px solid whitesmoke;
+        border-radius:20px;
+        background-color:transparent;
+    }
+    .button a {
+        color:rgb(140, 235, 140);
+        text-decoration:none;
+    }
+    .button button:hover{
+        background-color:white;
+        
+    }
+  .conn{
+      padding-left:100px;
+    }
+    .conn i{
+      color:dodgerblue;
+      font-size:40px;
+      margin-right:15px;
+    }
+
+     .bar .mobile-icon{
+        display: none;
+    }
+
+    /*Responsive queries for Responsive designs*/
+    @media only screen and (max-width:1178px){
+        .nav{
+            width:100%;
+            padding:0px 7%;
+        }
+    }
+
+    @media only screen and (max-width:1170px){
+        .nav{
+            width:100%;
+            padding:0px 10% 0px 0px;
+        }
+    }
+    @media only screen and (max-width:1165px){
+        .nav{
+            width:100%;
+            padding:0 6% 0 0;
+    }
+
+    @media only screen and (max-width:1110px){
+        .nav{
+            width:100%;
+            padding:0px 7% 0px 0px;
+        }
+        .content p{
+            font-weight:bold;
+         }
+         .content p1{
+             font-weight:lighter;
+         }
+    }
+
+    @media only screen and (max-width:1064px){
+      .nav{
+            width:100%;
+            padding:0px 3% 0px 0px;
+           }
+    .nav li{
+        margin-left:15px;
+    }
+      }
+
+      @media only screen and (max-width:995px){
+          .nav{
+              width:100%;
+              padding:0px 1% 0px 0px;
+          }
+          .nav li{
+              margin-left:12px;
+          }
+      }
+
+      @media only screen and (max-width:951px){
+          .nav{
+              width:100%;
+              margin-left:1%;
+          }
+      }
+
+      @media only screen and (max-width:676px){
+          .nav{
+              display: none;
+          }
+          .port{
+              margin-left:100px;
+          }
+          .content h1{
+              font-weight: normal;
+              font-size:30px;
+          }
+          .content p{
+              font-size:20px;
+          }
+          .content p1{
+              font-size:19px;
+          }
+          .button button{
+          height:30px;
+          font-size:25px;
+          width:150px;
+          }
+          .conn i{
+              font-size:30px;
+          }
+           .bar .mobile-icon{
+              display:inline-block;
+              color:#fff; 
+            padding-left:170px;
+             }
+             .nav{margin-left:240px;}
+
+             .nav li{
+                 width:100%;
+                 display:block;
+                 margin-top:20px;
+               }
+           .content{margin-top:100px;}
+           }
+     }
+
+         @media only screen and (max-width:624px){
+             .nav{ width:100%;
+            padding:0px 3% 0px 0px;
+            }
+            .bar{
+                width:100%;
+                padding:0px 0.5% 0px 0px;
+            }
+            .nav{
+                margin-left:130px;
+            }
+         }

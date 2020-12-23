@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio websites... </title>
+    <!--to link the css-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--to add google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--to link a fontawesome-->
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/edb2088f38.js" crossorigin="anonymous"></script>
+    <!--to add javascript-->
+    <script type="text/javascript">
+    function slideshow(){
+     var x = document.getElementById("check-error");
+     if(x.style.display === "none"){
+         x.style.display="block";
+     }else{
+         x.style.display="none";
+     }
+    }
+    </script>
+</head>
+<body>
+    <header class="main">
+    <div class="port">PORT<span>FOLIO</span></div>
+
+
+<div class="nav" id="check-error">
+    <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </div>
+    <div class="bar">
+        <a href="#" class="mobile-icon" onclick="slideshow()"><i class="fas fa-bars"></i></a>
+    </div>
+<!--<div class="search">
+    <input type="text"  value="search" name="search" id="search">
+    <div class="icon">
+    <i class="fas fa-search"></i></div>
+    </div>-->
+</header>
+
+  <div class="sec"> 
+ <div class="content">
+     <h1>Hello,</h1><br>
+     <p>I'm  Nisha..</p><br>
+     <p1>Web and software developer, as<br>
+        well as the member of learn and <br>
+        share and I have one year work<br> experience.</p1>
+    </div><br> 
+    <!--button-->
+    <div class="button">
+      <button> <a href="#">Connect me </a></button>
+    </div><br>
+    <!--links connection-->
+    <div class="conn">
+     <a href="#">   <i class="fab fa-github-square"></i></a>
+      <a href="#">  <i class="fab fa-twitter"></i></a>
+     <a href="#"> <i class="fas fa-envelope"></i></a>
+       <a href="#"> <i class="fab fa-instagram-square"></i></a>
+        </div>
+        </div>
+
+</body>
+</html>
